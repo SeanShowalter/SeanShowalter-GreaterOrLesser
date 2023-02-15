@@ -9,8 +9,8 @@ public class Application {
      */
     public static void main(String[] args) {
         Lab greaterOrLesser = new Lab();
-        System.out.println("Currently, the lab produces this value when comparing 3 to 9: ");
-        String result1 = greaterOrLesser.decide(3,9);
+        System.out.println("Currently, the lab produces this value when comparing 13 to 9: ");
+        String result1 = greaterOrLesser.decide(13,9);
         System.out.println(result1);
         System.out.println("Currently, the lab produces this value when comparing 5 to 5: ");
         String result2 = greaterOrLesser.decide(5,5);
